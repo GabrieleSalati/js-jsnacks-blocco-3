@@ -9,13 +9,9 @@ console.log(inputNumber);
 
 // Generazione array
 
-const list = [];
+let list = [];
 
 console.log(list);
-
-let groups = list * inputNumber;
-
-console.log(groups);
 
 // Ciclo generazione elementi array
 
