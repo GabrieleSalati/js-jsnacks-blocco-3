@@ -3,23 +3,34 @@
 
 // Richiesta numero utente
 
-const inputNumber = prompt("Inserisci un numero!");
+const inputNumber = parseInt(prompt("Inserisci un numero!"));
 
 console.log(inputNumber);
-
-// Generazione array
-
-let list = [];
-
-console.log(list);
 
 // Ciclo generazione elementi array
 
 let i = 0;
 
-while (list.length < 10) {
-    list.push(Math.floor(Math.random() * 100) + 1);
+while (i < inputNumber) {
 
-    i++
+    // Generazione array
+
+    let list = [];
+
+    console.log(list);
+
+    // Generazione elementi array
+
+    let y = 0;
+
+    while (y < 10) {
+
+        list.push(Math.floor(Math.random() * 100) + 1);
+
+        y++;
+
+    }
+
+    i++;
 }
 

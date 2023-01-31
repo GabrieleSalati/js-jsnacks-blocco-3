@@ -17,11 +17,12 @@ while (sum < 50) {
 
     // Richiesta numero all'utente
 
-    let inputNumber = prompt('Aggiungi un numero!');
+    let inputNumber = parseInt(prompt('Aggiungi un numero!'));
 
     numbers.push(inputNumber);
 
+    sum = sum + inputNumber;
+
     i++
 
-    sum = sum + numbers[i];
 }
